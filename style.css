@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(45deg, #50eae4, #450f69);
+}
+
+.red{
+    position: relative;
+    transform: translate(50%);
+    border-radius: 50%;
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+}
+.orange{
+    position: absolute;;
+    transform: translate(13%,13%);
+    border-radius: 50%;
+    width: 80%;
+    height: 80vh;
+    background-color: orange;
+}
+.yellow{
+    position: absolute;;
+    transform: translate(17%,17%);
+    border-radius: 50%;
+    width: 75%;
+    height: 60vh;
+    background-color: yellow;
+}
+.green{
+    position: absolute;;
+    transform: translate(21%,21%);
+    border-radius: 50%;
+    width: 70%;
+    height: 42vh;
+    background-color: green;
+}
+.blue{
+    position: absolute;;
+    transform: translate(31%,31%);
+    border-radius: 50%;
+    width: 62%;
+    height: 26vh;
+    background-color: blue;
+}
+.purple{
+    position: absolute;;
+    transform: translate(50%,50%);
+    border-radius: 50%;
+    width: 50%;
+    height: 13vh;
+    background-color: purple;
+}
+
+/* 
+.red{
+    
+    transform-style:preserve-3d;
+    transition: all 0.9s ease-in-out;
+}
+.dart_colors:hover{
+    animation: flipCircle 2s linear;
+}
+@keyframes flipCircle{
+    50%{
+        transform: rotateY(90deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
+
+.red:hover{
+    transform: rotate(45deg);
+    border-radius: 3%;
+}
+.orange:hover{
+    
+    border-radius: 3%;
+}
+.yellow:hover{
+    
+    border-radius: 3%;
+}
+.green:hover{
+    
+    border-radius: 3%;
+}
+.blue:hover{
+    
+    border-radius: 3%;
+}  */
